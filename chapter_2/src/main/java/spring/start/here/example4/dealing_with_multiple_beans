@@ -1,0 +1,38 @@
+Depending on your implementation, you have the following cases:
+1 The identifier of the parameter matches the name of one of the beans from the
+context (which, remember, is the same as the name of the method annotated
+with @Bean that returns its value). In this case, Spring will choose the bean for
+which the name is the same as the parameter.
+2 The identifier of the parameter doesn’t match any of the bean names from the
+context. Then you have the following options:
+    a) You marked one of the beans as primary (as we discussed in chapter 2, using
+    the @Primary annotation). In this case, Spring will select the primary bean
+    for injection.
+    b) You can explicitly select a specific bean using the @Qualifier annotation,
+    which we discuss in this chapter.
+    c) If none of the beans is primary and you don’t use @Qualifier, the app will
+    fail with an exception, complaining that the context contains more beans of
+    the same type and Spring doesn’t know which one to choose.
+
+************
+
+In the context, we define two beans
+of type Parrot. These two beans will
+take the name of the methods creating
+them: parrot1 and parrot2. We also
+define one bean of type Person.
+
+Spring will provide the value of the
+bean whose name is the same as the
+name of the parameter we defined.
+
+paragraph page 69:
+In a real-world scenario, I prefer to avoid relying on the name of the parameter, which
+could be easily refactored and changed by mistake by another developer. To feel more
+comfortable, I usually choose a more visible approach to express my intention to
+inject a specific bean: using the @Qualifier annotation.
+
+// SUMMARY
+Whenever you allow Spring to provide a value or reference through an attribute
+of the class or a method or constructor parameter, we say Spring uses DI, a technique
+supported by the IoC principle

@@ -1,0 +1,9 @@
+spring\start\here\main\MainDependencyInject.class
+spring\start\here\proxies\EmailCommentNotificationProxy.class
+spring\start\here\model\Comment.class
+spring\start\here\services\CommentService.class
+spring\start\here\repositories\DBCommentRepository.class
+spring\start\here\proxies\CommentNotificationProxy.class
+spring\start\here\repositories\CommentRepository.class
+spring\start\here\config\ProjectConfiguration.class
+spring\start\here\main\Main.class

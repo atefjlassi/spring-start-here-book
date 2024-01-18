@@ -1,0 +1,27 @@
+A circular dependency (figure 3.11) is a situation in which, to create a bean (let’s
+name it Bean A), Spring needs to inject another bean that doesn’t exist yet (Bean B).
+But Bean B also requests a dependency to Bean A. So, to create Bean B, Spring needs
+first to have Bean A. Spring is now in a deadlock. It cannot create Bean A because it
+needs Bean B, and it cannot create Bean B because it needs Bean A.
+
+// an exception appear when trying to create circular dependency.
+Caused by: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'parrot':
+Requested bean is currently in creation: Is there an unresolvable circular reference?
+
+// => solution ?
+With this exception, Spring tries to tell you the problem it encountered. The exception
+message is quite clear: Spring deals with a circular dependency and the classes
+that caused the situation. Whenever you find such an exception, you need to go to the
+classes specified by the exception and eliminate the circular dependency
+
+circular dependencies are usually a symptom of bad design, You would think again if there is some better
+way of defining your class dependencies.
+
+you can use @Lazy annotation to resolve this problem.
+For Example:
+
+  @Autowired
+  @Lazy
+  public Person(Parrot parrot) {
+    this.parrot = parrot;
+  }
