@@ -1,0 +1,12 @@
+Singleton beans in real-world scenarios:
+(page 107) IMPORTANT:
+
+Thus far we’ve discussed how Spring manages singleton beans. It’s time to also discuss
+things you need to be aware of when working with singleton beans. Let’s start by considering
+some scenarios where you should or shouldn’t use singleton beans.
+Because the singleton bean scope assumes that multiple components of the app
+can share an object instance, the most important thing to consider is that these beans
+must be immutable. Most often, a real-world app executes actions on multiple threads
+(e.g., any web app). In such a scenario, multiple threads share the same object
+instance. If these threads change the instance, you encounter a race-condition scenario
+

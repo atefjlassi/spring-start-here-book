@@ -1,0 +1,11 @@
+spring\start\here\main\MainScope1.class
+spring\start\here\services\ProductService.class
+spring\start\here\model\Comment.class
+spring\start\here\services\CommentService.class
+spring\start\here\services\OrderService.class
+spring\start\here\main\MainScope2.class
+spring\start\here\model\Product.class
+spring\start\here\services\UserService.class
+spring\start\here\repositories\CommentRepository.class
+spring\start\here\main\EagerLazy.class
+spring\start\here\config\ProjectConfiguration.class
