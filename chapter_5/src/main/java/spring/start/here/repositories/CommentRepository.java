@@ -1,5 +1,7 @@
 package spring.start.here.repositories;
 
+import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
 import spring.start.here.model.Comment;
 
@@ -8,8 +10,9 @@ import spring.start.here.model.Comment;
  * @Scope(BeanDefinition.SCOPE_PROTOTYPE)
  */
 @Repository
-public interface CommentRepository {
+@Scope(BeanDefinition.SCOPE_SINGLETON)
+public class CommentRepository {
 
-  void storeComment(Comment comment);
+  void storeComment(Comment comment) {}
 
 }

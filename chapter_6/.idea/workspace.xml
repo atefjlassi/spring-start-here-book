@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8856a5c7-0b47-4834-94ab-f7553f1a127d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Spring start here book - laur spilca.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Spring start here book - laur spilca.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter_5/src/main/java/spring/start/here/main/MainScope1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_5/src/main/java/spring/start/here/main/MainScope1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter_5/src/main/java/spring/start/here/repositories/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_5/src/main/java/spring/start/here/repositories/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter_5/src/main/java/spring/start/here/services/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_5/src/main/java/spring/start/here/services/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter_5/src/main/java/spring/start/here/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_5/src/main/java/spring/start/here/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter_5/target/classes/spring/start/here/repositories/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_5/target/classes/spring/start/here/repositories/CommentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter_5/target/classes/spring/start/here/services/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_5/target/classes/spring/start/here/services/CommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter_5/target/classes/spring/start/here/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_5/target/classes/spring/start/here/services/UserService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2bl2pm3k2TeTG17ZSIumWaffvMq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8856a5c7-0b47-4834-94ab-f7553f1a127d" name="Changes" comment="" />
+      <created>1706775531836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706775531836</updated>
+      <workItem from="1706775533763" duration="707000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

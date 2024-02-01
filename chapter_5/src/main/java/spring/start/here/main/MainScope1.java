@@ -12,8 +12,7 @@ public class MainScope1 {
 
     /**
      * test if repository is the same or not
-     *
-     * With and With not @Scope annotation
+     * With and Without @Scope annotation
      */
     var commentService = context.getBean(CommentService.class);
     var userService = context.getBean(UserService.class);
