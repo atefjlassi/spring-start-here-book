@@ -10,7 +10,7 @@ import spring.start.here.model.Comment;
  * @Scope(BeanDefinition.SCOPE_PROTOTYPE)
  */
 @Repository
-@Scope(BeanDefinition.SCOPE_SINGLETON)
+@Scope(BeanDefinition.SCOPE_PROTOTYPE)
 public class CommentRepository {
 
   void storeComment(Comment comment) {}

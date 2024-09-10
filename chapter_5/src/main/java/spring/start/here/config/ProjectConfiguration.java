@@ -5,11 +5,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
-import spring.start.here.services.ProductService;
+import spring.start.here.controllers.services.ProductService;
 
 @Configuration
 @ComponentScan(
-  basePackages = {"spring.start.here.repositories", "spring.start.here.services"}
+  basePackages = {"spring.start.here.repositories", "spring.start.here.controllers.services"}
 )
 public class ProjectConfiguration {
 

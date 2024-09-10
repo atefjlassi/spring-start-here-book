@@ -2,8 +2,8 @@ package spring.start.here.main;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import spring.start.here.config.ProjectConfiguration;
-import spring.start.here.services.CommentService;
-import spring.start.here.services.UserService;
+import spring.start.here.controllers.services.CommentService;
+import spring.start.here.controllers.services.UserService;
 
 public class MainScope1 {
 

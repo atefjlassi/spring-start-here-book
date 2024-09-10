@@ -12,6 +12,7 @@ public class Main {
     var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
     Parrot parrot = context.getBean(Parrot.class);
     System.out.println(parrot.getName());
+    //    System.out.println(parrot.getClass());
 
     String string = context.getBean(String.class);
     Integer integer = context.getBean(Integer.class);
